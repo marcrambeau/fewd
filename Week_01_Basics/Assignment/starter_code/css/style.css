@@ -1,26 +1,32 @@
 body {
-
+  background: #F6F6F6;
+  border-top: 5px solid #222222;
+  border-bottom: 5px solid #222222;
+  margin: 0px;
+  padding: 50px;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
 
 .commonstyles a {
-
 }
 
 .commonstyles small {
 }
 
 .commonstyles strong {
-
 }
 
 .commonstyles h1 {
-
 }
 
 .commonstyles h2 {
 }
 
 .commonstyles h3 {
+  font-size: 16px;
+  text-transform: uppercase;
   margin-top: 42px;
 }
 
@@ -29,8 +35,10 @@ body {
 }
 
 .commonstyles p {
+  font-family: Georgia, serif;
   margin-top: 0;
   margin-bottom: 27px;
+  color: #05080C;
 }
 
 .commonstyles ul {
@@ -38,11 +46,9 @@ body {
 }
 
 .commonstyles ul p {
-
 }
 
 .commonstyles li {
-
 }
 
 .commonstyles hr {
@@ -56,7 +62,7 @@ body {
   margin-bottom: 20px;
   border: 1px solid #222222;
   padding: 5px;
-  text-align: center
+  text-align: center;
 }
 
 .commonstyles img[alt] {
@@ -64,26 +70,28 @@ body {
 }
 
 .toc {
-
   max-width: 300px;
   float:right;
   margin: 0 0 20px 20px;
 }
 
 .toc .toclevel-1 {
-
+  font-size: 14px;
+  font-weight: bold;
 }
 
 .toc .toclevel-1 > a {
-
+  font-weight:bold;
+  color: #3344aa;
 }
 
 .toc .toclevel-2 {
-
+  font-size: 13px;
+  font-weight: normal;
 }
 
 .toc .toclevel-2 > a {
-
+  color: #666666;
 }
 
 .datatable td {
@@ -91,5 +99,7 @@ body {
 }
 
 .datatable td:first-child{
+  font-size: 11px;
   text-transform: uppercase;
+  font-weight: bold;
 }
