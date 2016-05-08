@@ -1,0 +1,88 @@
+body {
+	font-family: sans-serif;
+	margin: 2%;
+}
+
+.pageHeader {
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+.pageFooter {
+	width: 100%;
+	clear: both;
+	padding-top: 1%;
+	overflow: hidden;
+}
+
+.main {
+	width: 100%;
+	clear: both;
+	overflow: hidden;
+}
+
+.leftMain {
+	background: gray;
+	width: 49.5%;
+	float: left;
+	margin: 0 .5% 0 0;
+	overflow: hidden;
+}
+
+.rightMain {
+	background: gray;
+	width: 49.5%;
+	float: left;
+	margin: 0 0 0 .5%;
+	overflow: hidden;
+}
+
+.tiles {
+	width: 100%;
+	clear: both;
+	padding-top: 1%;
+	overflow: hidden;
+}
+
+.leftTile {
+	background: gray;
+	width: 32.7%;
+	float: left;
+	overflow: hidden;
+}
+
+.centerTile {
+	background: gray;
+	width: 32.7%;
+	float: left;
+	margin: 0 .95%;
+	overflow: hidden;
+}
+
+.rightTile {
+	background: gray;
+	width: 32.7%;
+	float: right;
+	overflow: hidden;
+}
+
+.pagePlaceholder {
+	background: gray;
+	border: 1px solid black;
+	min-height: 100px;
+	padding: 20px;
+}
+
+.mainPlaceholder {
+	background: gray;
+	border: 1px solid black;
+	min-height: 300px;
+	padding: 20px;
+}
+
+.tilePlaceholder {
+	background: gray;
+	border: 1px solid black;
+	min-height: 200px;
+	padding: 20px;
+}
