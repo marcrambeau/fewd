@@ -1,0 +1,52 @@
+body {
+	font-family: sans-serif;
+	margin: 2%;
+}
+
+.pageHeader {
+	width: 100%;
+	margin-bottom: 1%;
+}
+
+.pageFooter {
+	width: 100%;
+	clear: both;
+	padding-top: 1%;
+	overflow: hidden;
+}
+
+.leftColumn {
+	background: gray;
+	width: 20%;
+	float: left;
+	overflow: hidden;
+}
+
+.centerColumn {
+	background: gray;
+	width: 58%;
+	float: left;
+	margin: 0 1%;
+	overflow: hidden;
+}
+
+.rightColumn {
+	background: gray;
+	width: 20%;
+	float: right;
+	overflow: hidden;
+}
+
+.pagePlaceholder {
+	background: gray;
+	border: 1px solid black;
+	min-height: 100px;
+	padding: 20px;
+}
+
+.columnPlaceholder {
+	background: gray;
+	border: 1px solid black;
+	min-height: 300px;
+	padding: 20px;
+}
