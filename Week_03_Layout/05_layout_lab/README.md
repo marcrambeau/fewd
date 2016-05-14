@@ -21,8 +21,8 @@
 | Time        | Topic| GA Suggested| Comments |
 | ------------- |:-------------|:-------------------|:----------------|
 | _30 min_ | Floats and Clears Review |  | |
-| _20 min_ | [How To Start](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_03_Layout/05_layout_lab/README.md#how-to-start)| Div' Up The Content | Show students how and where to start. During lab time we will give students a png they will reproduce using HTML and CSS. |
-| _120 min_ | [Lab Time](https://github.com/generalassembly-studio/FEWD_2.0.0/blob/FEWD_2.0.1/Week_03_Layout/05_layout_lab/README.md#lab-time) | Fashion_Blog part 2 | Students add more complex elements and styling to the Fashion blog.|
+| _20 min_ | How To Start| Div' Up The Content | Show students how and where to start. During lab time we will give students a png they will reproduce using HTML and CSS. |
+| _120 min_ | Lab Time | Fashion_Blog part 2 | Students add more complex elements and styling to the Fashion blog.|
 
 
 ---
@@ -50,9 +50,9 @@ _Time: 20min_
 _Time: 120min_
 
 
-####[Relaxr Blog]()
+####Satre's List]
 
-|Exercise | [Relaxr Part 2](../AssignmentREVISED)|
+|Exercise | Satre's List |
 |:------------- |:-------------|
 | __Time__ | 45 min | 
 | __Topics__ | planning and building a website. | 
