@@ -23,6 +23,39 @@ BONUS:
 
 */
 
+var toDoList = [];
+var itemsToDo = 0;
+var itemsTotal = 0;
+
+var toDoListSample[false,"ListText"];
+toDoList = [toDoListSample,toDoListSample,toDoListSample]
+
+
+
+function renderToDo(){
+  itemsTotal = toDoList.length;
+  itemsToDo = 0;
+
+  var renderedCode = "";
+
+  for(q=0;q<toDoList.length;q++){
+    renderedCode = renderedCode + '<li><div class=listBox><label><input type="checkbox" name="todo-check" id="todo-check-'+q+'"> Done? <span class="todo-content">' + newItem + '</span></label></div></li>';
+    var checked = "";
+      if(toDoList[q][0]==false){
+        itemsToDo++;
+      }else{
+          checked = "checked";
+      }
+      renderedCode = renderedCode + checked + '<li><div class=listBox><label><input type="checkbox" name="todo-check" id="todo-check"> Done? <span class="todo-content">' + newItem + '</span></label></div></li>';
+        renderedCode = renderedCode +;
+      renderedCode = renderedCode + '<li><div class=listBox><label><input type="checkbox" name="todo-check" id="todo-check"> Done? <span class="todo-content">' + newItem + '</span></label></div></li>';
+    }
+
+jQuery("#todos").html(renderedCode);
+jQuery("#count").text(itemsToDo);
+
+}
+
 //Create a function to count the number of to do items.
 
   //Variable to store total number of list items.
@@ -37,9 +70,21 @@ BONUS:
 
 //Add new item on form submit.
 
+function addNewToDo(event){
+
   //Prevent page refresh.
+  event.preventDefault();
 
   //Grab value of form input & save into a variable.
+  var newItem = [false,""];
+
+  newItem[1] = jQuery("#newItem").val();
+
+  toDoList.push(newItem);
+
+  renderToDo();
+
+  something else i didn't have time to type
 
   //Create variable to store delete button HTML string.
 
@@ -53,6 +98,8 @@ BONUS:
 
 
   //Clear out the text input.
+jQuery("#newItem").val("");
+
 
 
 //Event listener for click on #todo-check.
