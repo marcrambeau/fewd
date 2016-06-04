@@ -1,0 +1,84 @@
+/* globals */
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+img {
+	max-width: 100%
+	height: auto;
+}
+
+aside {
+	width: 25%;
+	float: right;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+
+/* header */
+
+header {
+	padding: 15px 0 40px;
+}
+
+header .logo {
+	font-size: 48px;
+	font-weight: 400;
+	display: inline-block;
+	color: red;
+}
+
+header nav li a {
+	transition: background .25s ease;
+}
+}
+
+/* main nav */
+
+/* main content */
+
+/* articles */
+
+/* aside */
+
+/* ad */
+
+/* list */
+
+/* footer */
+
+/* footer nav */
+
+footer nav ul {
+	padding-left: 0;
+}
+
+footer nav li {
+	display: inline-block;
+}
+
+footer nav li a {
+	padding-right: 5px;
+	padding-left: 5px;
+	border-right: 1px solid lightgray;
+}
+
+footer nav li:first-child a {
+	padding-left: 0;
+}
+
+footer nav li:last-child a {
+	border-right: none;
+}
