@@ -1,4 +1,4 @@
-#FEWD Week #5: Troubleshooting Exercise
+#FEWD Week #6: Troubleshooting Exercise
 
 
 ---
@@ -12,6 +12,7 @@ and have asked you to try to repair the damaged page.  They have identified the 
 --The images are all broken
 --All the styles seem to be missing
 --When the user clicks on the + icon in each entry, the entry should expand.  It doesn't do anything
+--When a horse type is selected, it should filter the display so that only that type of horse is shown (draft, light, pony, etc)
 --The title "Directory of Horse Breeds" should be all upper case
 --The images all have the same alt text. They should have the correct text
 
