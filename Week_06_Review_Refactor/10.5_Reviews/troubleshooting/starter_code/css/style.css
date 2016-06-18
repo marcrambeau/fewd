@@ -87,7 +87,7 @@ a {
     font-weight: 600;
     font-size: 28px;
     color: rgb(10,15,10);
-    text-transform:allcaps;
+    text-transform: uppercase;
 }
 
 /* Single Breed Container */
@@ -100,7 +100,7 @@ a {
     margin-right: 1%;
 }
 
-.breedContainer h1{
+.breedContainer h1 {
     font-size: 15px;
     font-weight: 600;
     margin-left: 5%;
