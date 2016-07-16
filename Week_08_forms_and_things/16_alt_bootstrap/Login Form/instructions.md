@@ -34,6 +34,6 @@ In this exercise we will use bootstrap to build the login page for Relaxr users.
 
 ## References
 
-- [Bootstrap CSS] (http://getbootstrap.com/css/)
-- [Bootstrap Components] (http://getbootstrap.com/components/)
-- [Bootstrap Javascript] (http://getbootstrap.com/javascript/)
+- [Bootstrap CSS](http://getbootstrap.com/css/)
+- [Bootstrap Components](http://getbootstrap.com/components/)
+- [Bootstrap Javascript](http://getbootstrap.com/javascript/)

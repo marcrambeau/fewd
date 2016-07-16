@@ -52,3 +52,73 @@ Form
 
 -------------------------------- */
 
+fieldset {
+  border: none;
+  margin: 24px 0;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+form div {
+  margin: 20px 0;
+}
+
+legend {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    display: block;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+label,
+textarea,
+input[type="text"] {
+  display: block;
+  width: 100%;
+}
+
+textarea,
+input[type="text"] {
+  padding: 12px 12px 12px 54px;
+  border: 1px solid #cfd9db;
+  background-color: #fff;
+  border-radius: .25em;
+}
+
+input[name="contact-name"] {
+    background: url("img/cd-icon-user.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+
+input[name="contact-company"] {
+    background: url("img/cd-icon-company.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+
+input[name="contact-email"] {
+    background: url("img/cd-icon-email.svg") no-repeat 16px center, url("img/cd-required.svg") no-repeat top right;
+}
+
+textarea[name="project-description"] {
+  background: url("img/cd-icon-message.svg") no-repeat 16px 16px, url("img/cd-required.svg") no-repeat top right;
+  height: 200px;
+}
+
+input[type="submit"] {
+    border: none;
+    background: #2c97de;
+    border-radius: .25em;
+    padding: 16px 50px;
+    color: #fff;
+    font-weight: bold;
+    float: right;
+}
+
+input[type="submit"]:hover {
+  background: #42a2e1;
+}
+
+input[type="submit"]:focus {
+  background: #2b3e51;
+}
