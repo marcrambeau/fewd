@@ -66,43 +66,47 @@ header {
 	width: 100%;
 	position: fixed;
 	overflow: hidden;
+}
+
+.top-bar {
 	text-transform: uppercase;
+	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
 	padding: 0 24px;
 }
 
-header a {
+.top-bar a {
 	color: #000;
 }
 
-header h1 {
+.top-bar h1 {
 	font-size: 24px;
 	font-weight: 400;
 	line-height: 72px;
 	float: left;
 }
 
-header nav {
+.top-bar nav {
 	float: right;
 }
 
-header nav ul li, #hamburger {
+.top-bar nav ul li, #hamburger {
 	font-family: "Raleway", Helvetica, sans-serif;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0 0 0 24px;
 }
 
-header nav > ul > li, #hamburger {
+.top-bar nav > ul > li, #hamburger {
    line-height: 72px;
 }
 
-header nav ul li a {
+.top-bar nav ul li a {
 	padding-bottom: 6px;
 }
 
-header nav ul li a:hover {
+.top-bar nav ul li a:hover {
 	border-bottom: .5px solid #ffaa00;
 }
 
